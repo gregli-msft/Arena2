@@ -1,12 +1,35 @@
 <!doctype html>
+<script>
+var __physicalPathFull = window.location.pathname;
+var __physicalPath = __physicalPathFull.substring(0, __physicalPathFull.lastIndexOf('/'));
+
+history.replaceState({}, '', '/');
+
+function loadCSS(filePath) {
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = filePath;
+
+  document.head.appendChild(link);
+}
+
+function loadJS(filePath) {
+  const script = document.createElement("script");
+  script.src = filePath;
+
+  document.head.appendChild(script);
+}
+
+loadCSS(__physicalPath + "/assets/index-C7TM8aQY.css");
+loadJS(__physicalPath + "/assets/index-BfrRQz0A.js");
+</script>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>standup</title>
-    <script type="module" crossorigin src="/assets/index-BfrRQz0A.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C7TM8aQY.css">
   </head>
   <body>
     <div id="root"></div>
