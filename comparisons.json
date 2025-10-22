@@ -1,6 +1,34 @@
 {
   "comparisons": [
     {
+      "id": "tech-request",
+      "prompt": "Create a centralized Device Ordering solution that allows employees to browse available devices and submit device procurement requests. IT administrators should be notified when a request is submitted and can approve or reject the requests. The solution should provide visibility into device inventory and the status of submitted orders, improving efficiency and transparency across the organization.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/1dca1186-f20b-4cec-a1af-64d3b3ac279cab/"
+        },
+        {
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/1dca1186-f20b-4cec-a1af-64d3b3ac279cc4/"
+        }
+      ]
+    },
+    {
+      "id": "team-clock-pilot",
+      "prompt": "Create an app for a team lead to submit their timesheet and manage the timesheets for their team. Users should be able to add rows to the timesheet by project with a column for each day so that the user can fill in the hours spent each day on each project, along with selecting the type of work done during that time. Users should be able to see their submitted timesheets, the status of the submitted timesheet, and see the utilization of the members of their team based on their respective timesheets.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/bab0ac0a-8942-4c85-a388-a5f9bf1c8ed7ab/"
+        },
+        {
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/bab0ac0a-8942-4c85-a388-a5f9bf1c8ed7c4/"
+        }
+      ]
+    },            
+    {
       "id": "agenda-buddy",
       "prompt": "Create a mobile app for event attendees. attendees should be able to search for sessions by date/time, speaker name, session title, and topic area. They should be able to see event session details, add them to an itinerary. Attendees should be able to view and manage their itinerary by day. They should also be able to see general information about the event like address, directions, attire, etc. they should be able to see speaker profile information.",
       "apps": [
@@ -9,46 +37,122 @@
           "url": "/apps/fd1f3181-3360-4dad-8d40-34e0c5970379ab/"
         },
         {
-          "name": "GitHub Copilot with Claude 4.5",
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
           "url": "/apps/fd1f3181-3360-4dad-8d40-34e0c5970379c4/"
         }
       ]
     },
     {
-      "id": "comp-2",
-      "prompt": "Build a responsive dashboard for project management with task lists, progress charts, team member cards, and activity timeline",
+      "id": "standup-sync-mate",
+      "prompt": "I want an app my team can use to run daily scrums efficiently. It should show a list of all team members, let each person check in before the meeting starts, and only include those who checked in for that session. Once the scrum begins, the app should automatically manage the order and give each participant one minute to share their updates, then move to the next person when time is up. The scrum master should have a clear control view showing whoΓÇÖs checked in, whose turn it is, and how much time remains, with options to pause, skip, or extend someoneΓÇÖs time if needed. After the meeting, IΓÇÖd like a quick summary of who attended and how long the session lasted.",
       "apps": [
         {
-          "name": "Implementation 1",
-          "url": "https://example.com/dashboard-1"
+          "name": "Lovable",
+          "url": "/apps/ef65fe5a-df2f-464e-a91b-e4fe82634b33ab/"
         },
         {
-          "name": "Implementation 2",
-          "url": "https://example.com/dashboard-2"
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/ef65fe5a-df2f-464e-a91b-e4fe82634b33c4/"
+        }
+      ]
+    },    
+    {
+      "id": "hubble-feedback",
+      "prompt": "Create a customer feedback management app called FeedbackHub with a blue and white professional design. Features: Dashboard with feedback summary cards (Total Feedback, This Week, Positive/Negative Ratio, Top Issues) showing counts and simple metrics. Feedback List displaying all customer feedback with star ratings, customer names, dates, and category tags (Bug Report, Feature Request, Complaint, Praise). Add Feedback form with inputs for customer name, rating dropdown (1-5 stars), category selection, and feedback text area. Analytics section showing simple charts for feedback trends by category and rating distribution. Feedback Detail view for reading full feedback and adding internal notes. CRITICAL INTERACTIONS: Users must be able to navigate between Dashboard, All Feedback, Add Feedback, and Analytics using tab buttons, submit new feedback through the form with validation, click feedback items to view full details, filter feedback by category and rating using dropdown filters, add internal notes to feedback entries, and see all metrics update immediately when new feedback is added. Include success messages when feedback is saved and basic form validation for required fields. Make all navigation tabs, feedback cards, rating displays, filter controls, and note-taking functionality fully functional with proper state management",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/e3a8ee37-68b9-436a-bf3f-33af82db7959ab/"
         },
         {
-          "name": "Implementation 3",
-          "url": "https://example.com/dashboard-3"
-        },
-        {
-          "name": "Implementation 4",
-          "url": "https://example.com/dashboard-4"
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/e3a8ee37-68b9-436a-bf3f-33af82db7959c4/"
         }
       ]
     },
     {
-      "id": "comp-3",
-      "prompt": "Design a social media feed with infinite scroll, post interactions (like, comment, share), user profiles, and real-time updates",
+      "id": "coursemap-pro",
+      "prompt": "Create an app to allow employees to browse and sign up for available training courses. Include pages for detailed course descriptions, registered courses, and course history. Allow registrants to see their course schedule and make updates including canceling their reservation and choosing another course. Allow registrants to find resources for each course, such as documents and slide decks submitted by the instructors. Allow registrants to see their course completions and review materials from the course.",
       "apps": [
         {
-          "name": "Approach A",
-          "url": "https://example.com/social-a"
+          "name": "Lovable",
+          "url": "/apps/dbbbfd57-11df-498a-b325-fd3c53f1c214ab/"
         },
         {
-          "name": "Approach B",
-          "url": "https://example.com/social-b"
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/dbbbfd57-11df-498a-b325-fd3c53f1c214c4/"
         }
       ]
-    }
+    },    
+    {
+      "id": "skillbrew-dash",
+      "prompt": "I want an app to manage and track a company-wide competency training program with a clean, professional dashboard. Administrators should be able to view all training assignments at a glance, including totals and visual breakdowns by status (not started, in progress, completed). The dashboard should feature summary KPIs and a status chart at the top, followed by a detailed, sortable table showing each training with columns for training name, assigned employee, due date, region, and current status. There should be easy filters or dropdowns to view data by region or status, and the layout should make it simple to identify overdue or lagging regions. The data should be entered manually through a form or imported from a CSV file, with fields for training name, assigned user, region, due date, and status.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/c0888211-22a3-42cc-9e59-b6fcd6b206bcab/"
+        },
+        {
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/c0888211-22a3-42cc-9e59-b6fcd6b206bcc4/"
+        }
+      ]
+    },   
+    {
+      "id": "nominate-pro",
+      "prompt": "Create an app to submit nominations for an organization's internal kudos awards. Submitters should be able to nominate individuals or project teams. They should be able to search for the individual or project they want to nominate. Submitters should be able to see the details and requirements for various award categories and then select the desire award category for their nomination. The nomination should also allow the submitter to include a title and submission text to share the reason for their nomination. There should be a confirmation when the nomination is successfully submitted and submitters should be able to see their past nominations.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/5c810fd0-2102-43d0-80f5-b954812c1c44ab/"
+        },
+        {
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/5c810fd0-2102-43d0-80f5-b954812c1c44c4/"
+        }
+      ]
+    },    
+    {
+      "id": "demo-flow-keeper",
+      "prompt": "I want an app to organize our weekly demo meetings. People should be able to submit their demos, pick a week, and choose an available time slot (up to 10 demos per week). Each demo should show the presenterΓÇÖs name, title, week, and optional demo link. I should be able to see the full schedule for any week, move demos between weeks, and reorder them easilyΓÇöideally by drag and drop.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/465df6d6-e47d-4c2c-a762-2269239dcba2ab/"
+        },
+        {
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/465df6d6-e47d-4c2c-a762-2269239dcba2c4/"
+        }
+      ]
+    },   
+    {
+      "id": "quick-scrum-sync",
+      "prompt": "I want an app that helps my team run daily scrums smoothly. It should show a list of team members where each person can check in to confirm their attendance. Once everyoneΓÇÖs ready, the Scrum Master can start the meeting and see a queue of all checked-in members in the order theyΓÇÖll speak. When each personΓÇÖs turn comes, their name should be highlighted with a visible one-minute countdown timer so they can manage their time. After their minute ends, the Scrum Master should click a ΓÇ£Next SpeakerΓÇ¥ button to move to the next person in the queue. When everyone has finished, the app should display a simple ΓÇ£Thank youΓÇ¥ or ΓÇ£Scrum CompleteΓÇ¥ page to wrap up the session.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/438a63ea-e6f4-46b3-8775-42b54650fc67ab/"
+        },
+        {
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/4438a63ea-e6f4-46b3-8775-42b54650fc67c4/"
+        }
+      ]
+    }, 
+    {
+      "id": "rise-above-risk",
+      "prompt": "I'd like an app that helps professors track and support students who show signs of low engagement. The app should let me enter or import student activity data, including fields like student name, course, program, primary language, and country of residence, along with engagement metrics such as attendance rate, logins, assignment completion, and discussion participation. It should display a dashboard summarizing engagement trends by program, language, and country, plus highlight students predicted to be at risk of low success based on their engagement scores. I want filters to narrow the view by specific course or success level, and an alert system that flags struggling students. When a student is flagged, the app should allow sending them a prewritten but editable email template that professors can personalize before sending to encourage participation or offer help.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/0948c227-9589-4317-b804-383b5921adccab/"
+        },
+        {
+          "name": "GitHub Copilot with Claude Sonnet 4.5",
+          "url": "/apps/0948c227-9589-4317-b804-383b5921adccc4/"
+        }
+      ]
+    }                         
   ]
 }
