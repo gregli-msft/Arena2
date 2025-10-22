@@ -1,0 +1,40 @@
+<!doctype html>
+<script>
+var __physicalPathFull = window.location.pathname;
+var __physicalPath = __physicalPathFull.substring(0, __physicalPathFull.lastIndexOf('/'));
+
+history.replaceState({}, '', '/');
+
+function loadCSS(filePath) {
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = filePath;
+
+  document.head.appendChild(link);
+}
+
+function loadJS(filePath) {
+  const script = document.createElement("script");
+  script.src = filePath;
+
+  document.head.appendChild(script);
+}
+
+loadCSS(__physicalPath + "/assets/index-DQPAF930.css");
+loadJS(__physicalPath + "/assets/index-y9ub76tm.js");
+</script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeTracker - Professional Timesheet Management</title>
+    <meta name="description" content="Professional timesheet management tool for team leads to submit and manage team timesheets with real-time utilization tracking" />
+    <meta name="author" content="TimeTracker" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<script>
+var __physicalPathFull = window.location.pathname;
+var __physicalPath = __physicalPathFull.substring(0, __physicalPathFull.lastIndexOf('/'));
+
+history.replaceState({}, '', '/');
+
+function loadCSS(filePath) {
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = filePath;
+
+  document.head.appendChild(link);
+}
+
+function loadJS(filePath) {
+  const script = document.createElement("script");
+  script.src = filePath;
+
+  document.head.appendChild(script);
+}
+
+loadCSS(__physicalPath + "/assets/index-CiI2vftG.css");
+loadJS(__physicalPath + "/assets/index-DjwXXc6k.js");
+</script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kudos Awards - Recognition Excellence</title>
+    <meta name="description" content="Submit nominations for internal kudos awards. Recognize outstanding individuals and teams with our streamlined awards nomination system." />
+    <meta name="author" content="Kudos Awards" />
+
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

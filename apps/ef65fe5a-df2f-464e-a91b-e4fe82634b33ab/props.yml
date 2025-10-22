@@ -1,0 +1,5 @@
+origin: lovable
+project: standup-sync-mate
+acquired: 2025-10-15
+
+prompt: I want an app my team can use to run daily scrums efficiently. It should show a list of all team members, let each person check in before the meeting starts, and only include those who checked in for that session. Once the scrum begins, the app should automatically manage the order and give each participant one minute to share their updates, then move to the next person when time is up. The scrum master should have a clear control view showing who’s checked in, whose turn it is, and how much time remains, with options to pause, skip, or extend someone’s time if needed. After the meeting, I’d like a quick summary of who attended and how long the session lasted.

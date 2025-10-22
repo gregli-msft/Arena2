@@ -1,0 +1,5 @@
+origin: lovable
+project: demo-flow-keeper
+acquired: 2025-10-15
+
+prompt: I want an app to organize our weekly demo meetings. People should be able to submit their demos, pick a week, and choose an available time slot (up to 10 demos per week). Each demo should show the presenter’s name, title, week, and optional demo link. I should be able to see the full schedule for any week, move demos between weeks, and reorder them easily—ideally by drag and drop.

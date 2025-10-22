@@ -1,0 +1,5 @@
+origin: lovable
+project: tech-request
+acquired: 2025-10-15
+
+prompt: Create a centralized Device Ordering solution that allows employees to browse available devices and submit device procurement requests. IT administrators should be notified when a request is submitted and can approve or reject the requests. The solution should provide visibility into device inventory and the status of submitted orders, improving efficiency and transparency across the organization. 

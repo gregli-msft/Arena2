@@ -1,0 +1,5 @@
+origin: lovable
+project: rise-above-risk
+acquired: 2025-10-15
+
+prompt: I'd like an app that helps professors track and support students who show signs of low engagement. The app should let me enter or import student activity data, including fields like student name, course, program, primary language, and country of residence, along with engagement metrics such as attendance rate, logins, assignment completion, and discussion participation. It should display a dashboard summarizing engagement trends by program, language, and country, plus highlight students predicted to be at risk of low success based on their engagement scores. I want filters to narrow the view by specific course or success level, and an alert system that flags struggling students. When a student is flagged, the app should allow sending them a prewritten but editable email template that professors can personalize before sending to encourage participation or offer help.

@@ -1,0 +1,5 @@
+origin: lovable
+project: nominate-pro
+acquired: 2025-10-15
+
+prompt: Create an app to submit nominations for an organization's internal kudos awards. Submitters should be able to nominate individuals or project teams. They should be able to search for the individual or project they want to nominate. Submitters should be able to see the details and requirements for various award categories and then select the desire award category for their nomination. The nomination should also allow the submitter to include a title and submission text to share the reason for their nomination. There should be a confirmation when the nomination is successfully submitted and submitters should be able to see their past nominations.

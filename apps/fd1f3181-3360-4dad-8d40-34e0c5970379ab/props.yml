@@ -1,0 +1,5 @@
+origin: lovable
+project: agenda-buddy-mobile
+acquired: 2025-10-15
+
+prompt: Create a mobile app for event attendees. attendees should be able to search for sessions by date/time, speaker name, session title, and topic area. They should be able to see event session details, add them to an itinerary. Attendees should be able to view and manage their itinerary by day. They should also be able to see general information about the event like address, directions, attire, etc. they should be able to see speaker profile information.

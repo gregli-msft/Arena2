@@ -1,0 +1,5 @@
+origin: lovable
+project: coursemap-pro
+acquired: 2025-10-15
+
+prompt: Create an app to allow employees to browse and sign up for available training courses. Include pages for detailed course descriptions, registered courses, and course history. Allow registrants to see their course schedule and make updates including canceling their reservation and choosing another course. Allow registrants to find resources for each course, such as documents and slide decks submitted by the instructors. Allow registrants to see their course completions and review materials from the course.

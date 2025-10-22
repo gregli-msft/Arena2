@@ -1,0 +1,54 @@
+{
+  "comparisons": [
+    {
+      "id": "agenda-buddy",
+      "prompt": "Create a mobile app for event attendees. attendees should be able to search for sessions by date/time, speaker name, session title, and topic area. They should be able to see event session details, add them to an itinerary. Attendees should be able to view and manage their itinerary by day. They should also be able to see general information about the event like address, directions, attire, etc. they should be able to see speaker profile information.",
+      "apps": [
+        {
+          "name": "Lovable",
+          "url": "/apps/fd1f3181-3360-4dad-8d40-34e0c5970379ab"
+        },
+        {
+          "name": "GitHub Copilot with Claude 4.5",
+          "url": "/apps/fd1f3181-3360-4dad-8d40-34e0c5970379c4"
+        }
+      ]
+    },
+    {
+      "id": "comp-2",
+      "prompt": "Build a responsive dashboard for project management with task lists, progress charts, team member cards, and activity timeline",
+      "apps": [
+        {
+          "name": "Implementation 1",
+          "url": "https://example.com/dashboard-1"
+        },
+        {
+          "name": "Implementation 2",
+          "url": "https://example.com/dashboard-2"
+        },
+        {
+          "name": "Implementation 3",
+          "url": "https://example.com/dashboard-3"
+        },
+        {
+          "name": "Implementation 4",
+          "url": "https://example.com/dashboard-4"
+        }
+      ]
+    },
+    {
+      "id": "comp-3",
+      "prompt": "Design a social media feed with infinite scroll, post interactions (like, comment, share), user profiles, and real-time updates",
+      "apps": [
+        {
+          "name": "Approach A",
+          "url": "https://example.com/social-a"
+        },
+        {
+          "name": "Approach B",
+          "url": "https://example.com/social-b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+origin: lovable
+project: quick-scrum-sync
+acquired: 2025-10-15
+
+prompt: I want an app that helps my team run daily scrums smoothly. It should show a list of team members where each person can check in to confirm their attendance. Once everyone’s ready, the Scrum Master can start the meeting and see a queue of all checked-in members in the order they’ll speak. When each person’s turn comes, their name should be highlighted with a visible one-minute countdown timer so they can manage their time. After their minute ends, the Scrum Master should click a “Next Speaker” button to move to the next person in the queue. When everyone has finished, the app should display a simple “Thank you” or “Scrum Complete” page to wrap up the session.

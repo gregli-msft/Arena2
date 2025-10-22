@@ -1,0 +1,5 @@
+origin: lovable
+project: skillbrew-dash
+acquired: 2025-10-15
+
+prompt: I want an app to manage and track a company-wide competency training program with a clean, professional dashboard. Administrators should be able to view all training assignments at a glance, including totals and visual breakdowns by status (not started, in progress, completed). The dashboard should feature summary KPIs and a status chart at the top, followed by a detailed, sortable table showing each training with columns for training name, assigned employee, due date, region, and current status. There should be easy filters or dropdowns to view data by region or status, and the layout should make it simple to identify overdue or lagging regions. The data should be entered manually through a form or imported from a CSV file, with fields for training name, assigned user, region, due date, and status.

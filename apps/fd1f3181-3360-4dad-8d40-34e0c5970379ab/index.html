@@ -1,0 +1,40 @@
+<!doctype html>
+<script>
+var __physicalPathFull = window.location.pathname;
+var __physicalPath = __physicalPathFull.substring(0, __physicalPathFull.lastIndexOf('/'));
+
+history.replaceState({}, '', '/');
+
+function loadCSS(filePath) {
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = filePath;
+
+  document.head.appendChild(link);
+}
+
+function loadJS(filePath) {
+  const script = document.createElement("script");
+  script.src = filePath;
+
+  document.head.appendChild(script);
+}
+
+loadCSS(__physicalPath + "/assets/index-7PQYeUT7.css");
+loadJS(__physicalPath + "/assets/index-aMLLjl0S.js");
+</script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechConnect Conference 2025 - Event App</title>
+    <meta name="description" content="Browse sessions, manage your agenda, and connect with speakers at TechConnect Conference 2025" />
+    <meta name="author" content="TechConnect" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+  </body>
+</html>
