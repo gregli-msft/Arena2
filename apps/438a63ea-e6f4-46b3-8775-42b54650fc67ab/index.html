@@ -1,7 +1,8 @@
 <!doctype html>
 <script>
 var __physicalPathFull = window.location.pathname;
-var __physicalPath = __physicalPathFull.substring(0, __physicalPathFull.lastIndexOf('/'));
+var __physicalPathRE = /^(.*?)(\/[^\/]+\.[^\/]+|\/|)$/;  
+var __physicalPath = __physicalPathRE.exec(__physicalPathFull)[1];
 
 history.replaceState({}, '', '/');
 
