@@ -2,7 +2,7 @@
 <script>
 var __physicalPathFull = window.location.pathname;
 var __physicalPath = __physicalPathFull.substring(0, __physicalPathFull.lastIndexOf('/'));
-  alert( ":" + __physicalPathFull + ":" + __physicalPath + ":" )
+  debugDiv.innerHTML = ":" + __physicalPathFull + ":" + __physicalPath + ":" )
 
 history.replaceState({}, '', '/');
 
@@ -37,8 +37,10 @@ loadJS(__physicalPath + "/assets/index-C7ercuoe.js");
   </head>
 
   <body>
+    <div id="debugDiv"></div>
     <div id="root"></div>
 
   </body>
 </html>
+
 
