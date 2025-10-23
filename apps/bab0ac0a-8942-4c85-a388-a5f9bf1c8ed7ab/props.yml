@@ -1,5 +1,0 @@
-origin: lovable
-project: team-clock-pilot
-acquired: 2025-10-15
-
-prompt: Create an app for a team lead to submit their timesheet and manage the timesheets for their team. Users should be able to add rows to the timesheet by project with a column for each day so that the user can fill in the hours spent each day on each project, along with selecting the type of work done during that time. Users should be able to see their submitted timesheets, the status of the submitted timesheet, and see the utilization of the members of their team based on their respective timesheets.
